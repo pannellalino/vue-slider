@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 50%;
+}
+
+.card img{
+  object-fit: cover;
+  height: 300px;
+}
+
+.thumb{
+  display: flex;
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+.thumb img{
+  height: 100%;
+  width: calc(100% / 5);
+  object-fit: cover;
+}
+
+.active{
+  border: 5px solid pink;
+}
